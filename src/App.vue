@@ -155,7 +155,7 @@ const updateComparison = () => {
         alt="Comparison Image"
         class="comparison-image"
       />
-      <p>Your paper is now {{ thickness.toFixed(1) }} {{ unit }} thick.</p>
+      <p>Your paper is now {{ thickness.toFixed(1) }} {{ unit }} Tall.</p>
       <p style="font-weight: 600" class="description">{{ comparisonText }}</p>
       <button @click="unfold" :disabled="foldCount === 0" class="unfold-button">
         Unfold
